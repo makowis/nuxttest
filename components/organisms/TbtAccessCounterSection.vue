@@ -1,6 +1,6 @@
 <template>
   <tbt-section>
-    <tbt-h2>アクセスカウンター</tbt-h2>
+    <tbt-h-2>アクセスカウンター</tbt-h-2>
     <p>あなたは{{ access }}人目の訪問者です。</p>
     <p>現在の累計訪問者数は{{ realtime }}人です。</p>
     <small>

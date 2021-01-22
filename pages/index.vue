@@ -1,6 +1,6 @@
 <template>
   <div class="Top">
-    <tbt-h1><tbt-blink>定時後ビールタイム公式サイト</tbt-blink></tbt-h1>
+    <tbt-h-1><tbt-blink>定時後ビールタイム公式サイト</tbt-blink></tbt-h-1>
     <p>
       <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2020春参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
     </p>

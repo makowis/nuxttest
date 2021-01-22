@@ -1,7 +1,7 @@
 <template>
   <tbt-default>
     <div class="member">
-      <tbt-h1>MEMBER</tbt-h1>
+      <tbt-h-1>MEMBER</tbt-h-1>
       <table class="member-table">
         <thead>
           <tr>

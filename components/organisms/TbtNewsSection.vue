@@ -1,6 +1,6 @@
 <template>
   <tbt-section>
-    <tbt-h2>News</tbt-h2>
+    <tbt-h-2>News</tbt-h-2>
     <ul :class="$style.newsList">
       <li>
         <tbt-new-blink :class="$style.newsBlink">NEW</tbt-new-blink>

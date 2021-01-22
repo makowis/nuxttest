@@ -1,6 +1,6 @@
 <template>
   <tbt-section>
-    <tbt-h2>M3-2019秋スペース配置</tbt-h2>
+    <tbt-h-2>M3-2019秋スペース配置</tbt-h-2>
     <table border="1" :class="$style.spaceTable">
       <tr>
         <th>サークル名</th>
@@ -17,13 +17,13 @@
     </table>
 
     <tbt-section>
-      <tbt-h3>M3-2019秋</tbt-h3>
+      <tbt-h-3>M3-2019秋</tbt-h-3>
       <p>日時：2019年 10月27日(日) 11:00～15:30</p>
       <p>場所：東京流通センター(TRC)第一展示場、第二展示場</p>
       <a href="http://www.m3net.jp/">M3公式サイト</a>
     </tbt-section>
     <tbt-section>
-      <tbt-h3>頒布CDクロスフェード</tbt-h3>
+      <tbt-h-3>頒布CDクロスフェード</tbt-h-3>
       <tbt-recycle-cross-fade :class="$style.crossFade" />
     </tbt-section>
   </tbt-section>

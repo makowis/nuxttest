@@ -1,6 +1,6 @@
 <template>
   <tbt-section>
-    <tbt-h2>サークルカット</tbt-h2>
+    <tbt-h-2>サークルカット</tbt-h-2>
     <tbt-circle-cut-img :class="$style.circleCut" />
   </tbt-section>
 </template>

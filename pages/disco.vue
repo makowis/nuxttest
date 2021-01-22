@@ -1,12 +1,12 @@
 <template>
   <tbt-default>
     <div class="disco">
-      <tbt-h1>DISCOGRAPHY</tbt-h1>
+      <tbt-h-1>DISCOGRAPHY</tbt-h-1>
       <tbt-section>
-        <tbt-h2 :class="$style.albumTitle">
+        <tbt-h-2 :class="$style.albumTitle">
           3nd Mini Album 「RECYCLE」
           <tbt-new-blink />
-        </tbt-h2>
+        </tbt-h-2>
         <p :class="$style.onSale">
           <tbt-blink>2019.10.27 ON SALE！</tbt-blink>
         </p>
@@ -57,7 +57,7 @@
       </tbt-section>
       <hr />
       <tbt-section>
-        <tbt-h2 :class="$style.albumTitle"> 2nd Mini Album 「START」 </tbt-h2>
+        <tbt-h-2 :class="$style.albumTitle"> 2nd Mini Album 「START」 </tbt-h-2>
         <p :class="$style.onSale">
           <tbt-blink>2019.04.27 ON SALE！</tbt-blink>
         </p>
@@ -118,7 +118,7 @@
       </tbt-section>
       <hr />
       <tbt-section>
-        <tbt-h2 :class="$style.albumTitle">1st Mini Album「HOPE」</tbt-h2>
+        <tbt-h-2 :class="$style.albumTitle">1st Mini Album「HOPE」</tbt-h-2>
         <p :class="$style.onSale">
           <tbt-blink>2018.10.28 ON SALE！</tbt-blink>
         </p>

@@ -1,6 +1,6 @@
 <template>
   <tbt-section>
-    <tbt-h2>メニュー</tbt-h2>
+    <tbt-h-2>メニュー</tbt-h-2>
     <p>
       <tbt-disco-link> ＞＞＞＞DISCOGRAPHY＜＜＜＜ </tbt-disco-link>
     </p>

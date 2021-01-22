@@ -1,6 +1,6 @@
 <template>
   <div class="beenya">
-    <tbt-h1>びーにゃの部屋</tbt-h1>
+    <tbt-h-1>びーにゃの部屋</tbt-h-1>
     <tbt-beenya-img :class="$style.icon" />
     <table :class="$style.beenyaTable">
       <tbody>
