@@ -1,12 +1,11 @@
-name: ci
+name: github pages
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_run:
+    workflows: [ci]
+    branches: [main]
+    types: 
+      - completed
 
 jobs:
   ci:
@@ -42,8 +41,11 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: yarn
 
-      - name: Run linter 👀
-        run: yarn lint
+      - name: generate 👷
+        run: yarn generate
 
-      - name: Run tests 🧪
-        run: yarn test
+      - name: deploy 🚀
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
