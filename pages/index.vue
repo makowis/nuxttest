@@ -20,8 +20,8 @@
 export default {
   data() {
     return {
-      counter: { access: 0, realtime: 0 }
+      counter: { access: 0, realtime: 0 },
     }
-  }
+  },
 }
 </script>
