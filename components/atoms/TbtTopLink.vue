@@ -1,5 +1,5 @@
 <template>
-  <router-link to="/">
+  <NuxtLink to="/">
     <slot />
-  </router-link>
+  </NuxtLink>
 </template>
