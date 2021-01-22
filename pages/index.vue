@@ -1,65 +1,27 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">nuxttest</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub test
-        </a>
-      </div>
-    </div>
+  <div class="Top">
+    <tbt-h1><tbt-blink>定時後ビールタイム公式サイト</tbt-blink></tbt-h1>
+    <p>
+      <tbt-blink>🎉🎉🎉🎉🎉🎉🎉M3-2020春参戦決定！🎉🎉🎉🎉🎉🎉</tbt-blink>
+    </p>
+    <tbt-marquee>
+      M3-2020春に参戦！パワーアップしたサウンドをお届けします！
+    </tbt-marquee>
+    <tbt-access-counter-section v-bind="counter" />
+    <tbt-news-section />
+    <tbt-circle-cut-section />
+    <tbt-circle-space-infoSection />
+    <tbt-mail-section />
+    <tbt-menu-section />
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({})
+export default {
+  data() {
+    return {
+      counter: { access: 0, realtime: 0 }
+    }
+  }
+}
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

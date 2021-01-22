@@ -1,0 +1,12 @@
+<template>
+  <tbt-youtube-embedded>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/IxTdbkoGM-Q"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+    ></iframe>
+  </tbt-youtube-embedded>
+</template>
