@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue should match the snapshot 1`] = `
+<div
+  class="Top"
+>
+  <tbt-h-1>
+    <tbt-blink>
+      定時後ビールタイム公式サイト
+    </tbt-blink>
+  </tbt-h-1>
+   
+  <p>
+    <tbt-blink>
+      🎉🎉🎉🎉🎉🎉🎉M3-2020春参戦決定！🎉🎉🎉🎉🎉🎉
+    </tbt-blink>
+  </p>
+   
+  <tbt-marquee>
+    
+    M3-2020春に参戦！パワーアップしたサウンドをお届けします！
+  
+  </tbt-marquee>
+   
+  <tbt-access-counter-section
+    access="0"
+    realtime="0"
+  />
+   
+  <tbt-news-section />
+   
+  <tbt-circle-cut-section />
+   
+  <tbt-circle-space-infosection />
+   
+  <tbt-mail-section />
+   
+  <tbt-menu-section />
+</div>
+`;
