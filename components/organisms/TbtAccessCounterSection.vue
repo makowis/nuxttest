@@ -7,7 +7,14 @@
 </template>
 
 <script lang="ts">
+import TbtH2 from '@/components/atoms/TbtH2.vue';
+import TbtSection from '@/components/atoms/TbtSection.vue';
+
 export default {
   props: ['access', 'realtime'],
+  components: {
+    TbtH2,
+    TbtSection,
+  }
 }
 </script>

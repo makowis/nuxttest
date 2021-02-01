@@ -23,10 +23,18 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
 import members from '@/resources/members'
-export default class Member extends Vue {
-  members = members
+import TbtH1 from '@/components/atoms/TbtH1.vue';
+
+export default {
+  data() {
+    return {
+      members: members,
+    }
+  },
+  components: {
+    TbtH1,
+  },
 }
 </script>
 

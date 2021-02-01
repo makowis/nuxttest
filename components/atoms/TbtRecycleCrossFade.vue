@@ -10,3 +10,13 @@
     ></iframe>
   </tbt-youtube-embedded>
 </template>
+
+<script lang="ts">
+import TbtYoutubeEmbedded from '@/components/atoms/TbtYoutubeEmbedded.vue';
+
+export default {
+  components: {
+    TbtYoutubeEmbedded
+  },
+}
+</script>

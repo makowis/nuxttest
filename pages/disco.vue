@@ -170,6 +170,36 @@
   </tbt-default>
 </template>
 
+<script lang="ts">
+import TbtH1 from '@/components/atoms/TbtH1.vue';
+import TbtH2 from '@/components/atoms/TbtH2.vue';
+import TbtSection from '@/components/atoms/TbtSection.vue';
+import TbtBlink from '@/components/atoms/TbtBlink.vue';
+import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue';
+import TbtHopeJacketImg from '@/components/atoms/TbtHopeJacketImg.vue';
+import TbtStartJacketImg from '@/components/atoms/TbtStartJacketImg.vue';
+import TbtRecycleJacketImg from '@/components/atoms/TbtRecycleJacketImg.vue';
+import TbtHopeCrossFade from '@/components/atoms/TbtHopeCrossFade.vue';
+import TbtStartCrossFade from '@/components/atoms/TbtStartCrossFade.vue';
+import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue';
+
+export default {
+  components: {
+    TbtH1,
+    TbtH2,
+    TbtSection,
+    TbtHopeJacketImg,
+    TbtStartJacketImg,
+    TbtRecycleJacketImg,
+    TbtBlink,
+    TbtNewBlink,
+    TbtHopeCrossFade,
+    TbtStartCrossFade,
+    TbtRecycleCrossFade,
+  },
+}
+</script>
+
 <style module>
 .table {
   margin: auto;
