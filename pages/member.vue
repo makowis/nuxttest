@@ -1,25 +1,23 @@
 <template>
-  <tbt-default>
-    <div class="member">
-      <tbt-h-1>MEMBER</tbt-h-1>
-      <table class="member-table">
-        <thead>
-          <tr>
-            <th>名前</th>
-            <th>担当</th>
-            <th>自己紹介</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr v-for="member in members" :key="member.name">
-            <td>{{ member.name }}</td>
-            <td v-html="member.charge"></td>
-            <td v-html="member.profile"></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </tbt-default>
+  <div class="member">
+    <tbt-h-1>MEMBER</tbt-h-1>
+    <table class="member-table">
+      <thead>
+        <tr>
+          <th>名前</th>
+          <th>担当</th>
+          <th>自己紹介</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="member in members" :key="member.name">
+          <td>{{ member.name }}</td>
+          <td v-html="member.charge"></td>
+          <td v-html="member.profile"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </template>
 
 <script lang="ts">
