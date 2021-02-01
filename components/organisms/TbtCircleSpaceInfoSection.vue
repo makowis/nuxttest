@@ -29,6 +29,22 @@
   </tbt-section>
 </template>
 
+<script lang="ts">
+import TbtH2 from '@/components/atoms/TbtH2.vue'
+import TbtH3 from '@/components/atoms/TbtH3.vue'
+import TbtSection from '@/components/atoms/TbtSection.vue'
+import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue'
+
+export default {
+  components: {
+    TbtH2,
+    TbtH3,
+    TbtSection,
+    TbtRecycleCrossFade,
+  },
+}
+</script>
+
 <style module>
 .spaceTable {
   max-width: 90%;
