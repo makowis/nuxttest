@@ -1,8 +1,9 @@
-import { mount, RouterLinkStub } from '@vue/test-utils'
+import { mount, RouterLinkStub } from '@vue/test-utils';
+import { Component } from 'vue';
 import DefaultLayout from '@/layouts/default.vue';
 
 describe('index.vue', () => {
-  const NuxtMock  = {
+  const NuxtMock:Component  = {
     template: '<div>Nuxt</div>'
   }
   const vm = mount(DefaultLayout, {
