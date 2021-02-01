@@ -3,11 +3,11 @@
 </template>
 
 <script lang="ts">
-import TbtBlink from '@/components/atoms/TbtBlink.vue';
+import TbtBlink from '@/components/atoms/TbtBlink.vue'
 
 export default {
   components: {
-    TbtBlink
+    TbtBlink,
   },
 }
 </script>

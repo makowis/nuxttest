@@ -9,19 +9,18 @@
 </template>
 
 <script lang="ts">
-import TbtMenu from '@/components/organisms/TbtMenu.vue';
-import TbtMain from '@/components/organisms/TbtMain.vue';
-import TbtFooter from '@/components/organisms/TbtFooter.vue';
+import TbtMenu from '@/components/organisms/TbtMenu.vue'
+import TbtMain from '@/components/organisms/TbtMain.vue'
+import TbtFooter from '@/components/organisms/TbtFooter.vue'
 
 export default {
   components: {
     TbtMenu,
     TbtMain,
     TbtFooter,
-  }
+  },
 }
 </script>
-
 
 <style>
 #app {

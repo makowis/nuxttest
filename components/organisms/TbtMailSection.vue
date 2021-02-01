@@ -10,13 +10,13 @@
 </template>
 
 <script lang="ts">
-import TbtH2 from '@/components/atoms/TbtH2.vue';
-import TbtSection from '@/components/atoms/TbtSection.vue';
+import TbtH2 from '@/components/atoms/TbtH2.vue'
+import TbtSection from '@/components/atoms/TbtSection.vue'
 
 export default {
   components: {
     TbtH2,
     TbtSection,
-  }
+  },
 }
 </script>

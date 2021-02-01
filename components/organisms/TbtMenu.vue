@@ -23,10 +23,10 @@
 </template>
 
 <script lang="ts">
-import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue';
-import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
-import TbtTopLink from '@/components/atoms/TbtTopLink.vue';
-import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue';
+import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue'
+import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue'
+import TbtTopLink from '@/components/atoms/TbtTopLink.vue'
+import TbtBeenyaLink from '@/components/atoms/TbtBeenyaLink.vue'
 
 export default {
   components: {
@@ -34,7 +34,7 @@ export default {
     TbtMemberLink,
     TbtTopLink,
     TbtBeenyaLink,
-  }
+  },
 }
 </script>
 

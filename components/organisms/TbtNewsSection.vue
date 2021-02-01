@@ -21,16 +21,16 @@
 </template>
 
 <script lang="ts">
-import TbtH2 from '@/components/atoms/TbtH2.vue';
-import TbtSection from '@/components/atoms/TbtSection.vue';
-import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue';
+import TbtH2 from '@/components/atoms/TbtH2.vue'
+import TbtSection from '@/components/atoms/TbtSection.vue'
+import TbtNewBlink from '@/components/atoms/TbtNewBlink.vue'
 
 export default {
   components: {
     TbtH2,
     TbtSection,
     TbtNewBlink,
-  }
+  },
 }
 </script>
 

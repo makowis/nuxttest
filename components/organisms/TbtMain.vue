@@ -8,14 +8,14 @@
 </template>
 
 <script lang="ts">
-import TbtTopLink from '@/components/atoms/TbtTopLink.vue';
-import TbtLogo from '@/components/atoms/TbtLogo.vue';
+import TbtTopLink from '@/components/atoms/TbtTopLink.vue'
+import TbtLogo from '@/components/atoms/TbtLogo.vue'
 
 export default {
   components: {
     TbtTopLink,
     TbtLogo,
-  }
+  },
 }
 </script>
 

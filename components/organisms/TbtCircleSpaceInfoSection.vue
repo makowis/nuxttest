@@ -30,10 +30,10 @@
 </template>
 
 <script lang="ts">
-import TbtH2 from '@/components/atoms/TbtH2.vue';
-import TbtH3 from '@/components/atoms/TbtH3.vue';
-import TbtSection from '@/components/atoms/TbtSection.vue';
-import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue';
+import TbtH2 from '@/components/atoms/TbtH2.vue'
+import TbtH3 from '@/components/atoms/TbtH3.vue'
+import TbtSection from '@/components/atoms/TbtSection.vue'
+import TbtRecycleCrossFade from '@/components/atoms/TbtRecycleCrossFade.vue'
 
 export default {
   components: {
@@ -41,7 +41,7 @@ export default {
     TbtH3,
     TbtSection,
     TbtRecycleCrossFade,
-  }
+  },
 }
 </script>
 

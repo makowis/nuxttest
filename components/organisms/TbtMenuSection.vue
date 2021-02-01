@@ -11,10 +11,10 @@
 </template>
 
 <script lang="ts">
-import TbtH2 from '@/components/atoms/TbtH2.vue';
-import TbtSection from '@/components/atoms/TbtSection.vue';
-import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue';
-import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue';
+import TbtH2 from '@/components/atoms/TbtH2.vue'
+import TbtSection from '@/components/atoms/TbtSection.vue'
+import TbtDiscoLink from '@/components/atoms/TbtDiscoLink.vue'
+import TbtMemberLink from '@/components/atoms/TbtMemberLink.vue'
 
 export default {
   components: {
@@ -22,6 +22,6 @@ export default {
     TbtSection,
     TbtDiscoLink,
     TbtMemberLink,
-  }
+  },
 }
 </script>

@@ -24,16 +24,16 @@
 
 <script lang="ts">
 import members from '@/resources/members'
-import TbtH1 from '@/components/atoms/TbtH1.vue';
+import TbtH1 from '@/components/atoms/TbtH1.vue'
 
 export default {
-  data() {
-    return {
-      members: members,
-    }
-  },
   components: {
     TbtH1,
+  },
+  data() {
+    return {
+      members,
+    }
   },
 }
 </script>

@@ -22,8 +22,8 @@
 </template>
 
 <script lang="ts">
-import TbtH1 from '@/components/atoms/TbtH1.vue';
-import TbtBeenyaImg from '@/components/atoms/TbtBeenyaImg.vue';
+import TbtH1 from '@/components/atoms/TbtH1.vue'
+import TbtBeenyaImg from '@/components/atoms/TbtBeenyaImg.vue'
 
 export default {
   components: {
